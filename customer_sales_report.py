@@ -1,7 +1,7 @@
 import csv
 
 sales = open('sales.csv','r')
-outfile = open('customer_sales_report.csv', 'w', newline='')
+outfile = open('salesreport.csv', 'w', newline='')
 
 sales_files = csv.reader(sales, delimiter=',')  
 outfile_writer = csv.writer(outfile, delimiter=',')
